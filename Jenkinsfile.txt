@@ -6,13 +6,13 @@ node {
    //def mvnHome
    stage('checkoutrepo2master') { // for display purposes
       // Get some code from a GitHub repository
-      sh echo("pulll code from git....repo 2");
+      echo("pulll code from git....repo 2");
    }
    stage('buildrepo2master') {
-      sh echo("build from git master....repo 2");
+      echo("build from git master....repo 2");
    }
    stage('testrepo2master2') {
-      sh echo("test from git master....repo 2");
+      echo("test from git master....repo 2");
     }
    
 }
